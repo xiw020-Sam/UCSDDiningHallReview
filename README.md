@@ -71,6 +71,8 @@ UCSD Dining Hall Review App provides a platform for students to express their op
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+![](https://i.imgur.com/nAaqPpd.png)
+![](https://i.imgur.com/vUoVBcd.png)
 
 ### [BONUS] Interactive Prototype
 
