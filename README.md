@@ -77,9 +77,16 @@ UCSD Dining Hall Review App provides a platform for students to express their op
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### Post
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | content      | String   | Review content |
+   | author_username        | Pointer to User| review author |
+   | author_college        | String| college of user (optional) |
+   | likesCount    | Number   | number of likes for the post |
+   | dislikesCount    | Number   | number of dislikes for the post |
+   | postedAt     | DateTime | date when post is created (default field) |
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
