@@ -66,8 +66,6 @@ UCSD Dining Hall Review App provides a platform for students to express their op
    * If user is not logged in, they can click on the login page to login to their account
 
 ## Wireframes
-![](https://i.imgur.com/09NPI1A.jpg)
-
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
