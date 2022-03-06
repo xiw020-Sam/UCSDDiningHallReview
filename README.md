@@ -110,11 +110,14 @@ UCSD Dining Hall Review App provides a platform for students to express their op
           if let error = error {
               print(error.localizedDescription)
           } else if let post = post {
-              post["likes"] += 1 // following examples on redo like and disagree only differ in this line.
+              post["likes"] += 1 // following cases on redo like and disagree only differ in this line.
               post.saveInBackground()
           }
       }
       ```
       - (Delete) Undo existing like
+      - (Create/POST) Disike a post
+      - (Delete) Undo existing dislike
+   For the above 3 requests, see "Like a post".
    - Create Post Screen
       - (Create/POST) Create a new post object
