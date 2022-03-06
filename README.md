@@ -117,7 +117,23 @@ UCSD Dining Hall Review App provides a platform for students to express their op
       ```
       - (Delete) Undo existing like
       - (Create/POST) Disike a post
-      - (Delete) Undo existing dislike
+      - (Delete) Undo existing dislike.  
    For the above 3 requests, see "Like a post".
    - Create Post Screen
       - (Create/POST) Create a new post object
+      ```swift
+      let post = PFObject(className:"Post")
+      post["text"] = textField.text
+      post["user"] = currentUser.username
+      post["user_college"] = currentUser.college     // will be set to '' if not entered during sign up
+      post["date"] = Date().string(format: "yyyy-MM-dd")
+      post["likes"] = 0
+      post["dislikes"] = 0
+      post.saveInBackground { (succeeded, error)  in
+          if (succeeded) {
+              // The object has been saved.
+          } else {
+              // There was a problem, check error.description
+          }
+      }
+      ```
