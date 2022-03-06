@@ -89,7 +89,7 @@ UCSD Dining Hall Review App provides a platform for students to express their op
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 #### List of network requests by screen
    - Review Feed Screen
-      - (Read/GET) Query all posts where user is author
+      - (Read/GET) Query all posts with matching college.
          ```swift
          let query = PFQuery(className:"Post")
          query.whereKey("college", equalTo: choosenCollege)
@@ -103,7 +103,18 @@ UCSD Dining Hall Review App provides a platform for students to express their op
             }
          }
          ```
-      - (Create/POST) Create a new like on a post
-      - (Delete) Delete existing like
+      - (Create/POST) Like a post
+      ```swift
+      let query = PFQuery(className:"Post")
+      query.getObjectInBackground(withId: currentPostId) { (post: PFObject?, error: Error?) in
+          if let error = error {
+              print(error.localizedDescription)
+          } else if let post = post {
+              post["likes"] += 1 // following examples on redo like and disagree only differ in this line.
+              post.saveInBackground()
+          }
+      }
+      ```
+      - (Delete) Undo existing like
    - Create Post Screen
       - (Create/POST) Create a new post object
