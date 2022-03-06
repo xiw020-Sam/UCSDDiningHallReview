@@ -78,6 +78,8 @@ UCSD Dining Hall Review App provides a platform for students to express their op
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | content      | String   | Review content |
+   | dinning_hall      | String   | on which dinning hall |
+   | college      | String   | college/area this dinning hall belongs to |
    | author_username        | Pointer to User| review author |
    | author_college        | String| college of user (optional) |
    | likes    | Number   | number of likes for the post |
@@ -124,6 +126,8 @@ UCSD Dining Hall Review App provides a platform for students to express their op
       ```swift
       let post = PFObject(className:"Post")
       post["content"] = textField.text
+      post["dinning_hall"] = selectedHall
+      post["college"] = selectedCollege
       post["author_username"] = currentUser.username
       post["author_college"] = currentUser.college     // will be set to '' if not entered during sign up
       post["date"] = Date()
