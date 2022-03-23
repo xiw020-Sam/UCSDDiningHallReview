@@ -13,6 +13,11 @@ Original App Design Project - README Template
 ### Description
 UCSD Dining Hall Review App provides a platform for students to express their opinion on on-campus dinning hall. Students can choose the dining hall that they want to get food at based on the reviews. 
 
+### Current Progress GIF
+
+Here's a walkthrough of current implemented user stories:
+<img src='http://g.recordit.co/qz78Amtt4q.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 ### App Evaluation
 - **Category:** Review and Social Networking
 - **Mobile:** This app would be primarily developed for mobile, however, we might do a web version of the app so that students can access the app through their computer
@@ -27,9 +32,9 @@ UCSD Dining Hall Review App provides a platform for students to express their op
 
 **Required Must-have Stories**
 
-* Account page for each user
-* User login to their account to add review 
-* View other users' review on dining halls
+* [ ] Account page for each user
+* [x] User login to their account to add review 
+* [ ] View other users' review on dining halls
 
 **Optional Nice-to-have Stories**
 

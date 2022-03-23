@@ -1,0 +1,6 @@
+framework module Pods_UCSDDiningHallReview_UCSDDiningHallReviewUITests {
+  umbrella header "Pods-UCSDDiningHallReview-UCSDDiningHallReviewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
