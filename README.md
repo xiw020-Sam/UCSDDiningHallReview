@@ -16,7 +16,7 @@ UCSD Dining Hall Review App provides a platform for students to express their op
 ### Current Progress GIF
 
 Here's a walkthrough of current implemented user stories:
-<img src='http://g.recordit.co/uWBF3XLhOQ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="MAR22_GIF_Milestone1.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### App Evaluation
 - **Category:** Review and Social Networking
