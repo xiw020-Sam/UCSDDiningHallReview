@@ -18,6 +18,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     @IBOutlet weak var ratingField: UITextField!
     
+    @IBOutlet weak var diningHallField: UITextField!
     
     
     override func viewDidLoad() {
@@ -33,6 +34,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         post["author"] = PFUser.current()!
         
         post["rating"] = ratingField.text!
+        post["diningHall"] = diningHallField.text!
         
         let imageData = imageView.image!.pngData()
         let file = PFFileObject(name: "image.png", data: imageData!)

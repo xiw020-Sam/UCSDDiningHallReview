@@ -123,6 +123,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             cell.usernameLabel.text = user.username
             cell.captionLabel.text = post["caption"] as! String
             cell.ratingLabel.text = post["rating"] as! String
+            cell.diningHallLabel.text = post["diningHall"] as! String
             
             
             let imageFile = post["image"] as! PFFileObject
