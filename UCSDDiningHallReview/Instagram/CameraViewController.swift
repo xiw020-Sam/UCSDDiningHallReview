@@ -14,6 +14,12 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBOutlet weak var imageView: UIImageView!
     
     @IBOutlet weak var commentField: UITextField!
+    
+    
+    @IBOutlet weak var ratingField: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,10 +32,13 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         post["caption"] = commentField.text!
         post["author"] = PFUser.current()!
         
+        post["rating"] = ratingField.text!
+        
         let imageData = imageView.image!.pngData()
         let file = PFFileObject(name: "image.png", data: imageData!)
         
         post["image"] = file
+        
         
         
         post.saveInBackground { (success, error) in
