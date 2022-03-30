@@ -48,16 +48,16 @@
 		39560CDAD2A605C56551EA62 /* Pods-InstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramTests.release.xcconfig"; path = "Target Support Files/Pods-InstagramTests/Pods-InstagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		49D576BB3FE7599AB459276E /* Pods-Instagram-InstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-InstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Instagram-InstagramUITests/Pods-Instagram-InstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6679B9127D85E5800594047 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
-		B6E7138827CFF8CB000A9955 /* UCSDDiningHallReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCSDDiningHallReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E7138827CFF8CB000A9955 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E7138B27CFF8CB000A9955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6E7138D27CFF8CB000A9955 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B6E7139227CFF8CB000A9955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6E7139427CFF8CC000A9955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6E7139727CFF8CC000A9955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6E7139927CFF8CC000A9955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6E7139E27CFF8CC000A9955 /* UCSDDiningHallReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UCSDDiningHallReviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E7139E27CFF8CC000A9955 /* InstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E713A227CFF8CC000A9955 /* InstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTests.swift; sourceTree = "<group>"; };
-		B6E713A827CFF8CC000A9955 /* UCSDDiningHallReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UCSDDiningHallReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E713A827CFF8CC000A9955 /* InstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E713AC27CFF8CC000A9955 /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
 		B6E713AE27CFF8CC000A9955 /* InstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B6E713BB27D00216000A9955 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -114,9 +114,9 @@
 		B6E7138927CFF8CB000A9955 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6E7138827CFF8CB000A9955 /* UCSDDiningHallReview.app */,
-				B6E7139E27CFF8CC000A9955 /* UCSDDiningHallReviewTests.xctest */,
-				B6E713A827CFF8CC000A9955 /* UCSDDiningHallReviewUITests.xctest */,
+				B6E7138827CFF8CB000A9955 /* Instagram.app */,
+				B6E7139E27CFF8CC000A9955 /* InstagramTests.xctest */,
+				B6E713A827CFF8CC000A9955 /* InstagramUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,9 +182,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6E7138727CFF8CB000A9955 /* UCSDDiningHallReview */ = {
+		B6E7138727CFF8CB000A9955 /* Instagram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6E713B227CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "UCSDDiningHallReview" */;
+			buildConfigurationList = B6E713B227CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "Instagram" */;
 			buildPhases = (
 				D0519EA55C52E2B287569E74 /* [CP] Check Pods Manifest.lock */,
 				B6E7138427CFF8CB000A9955 /* Sources */,
@@ -196,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = UCSDDiningHallReview;
+			name = Instagram;
 			productName = Instagram;
-			productReference = B6E7138827CFF8CB000A9955 /* UCSDDiningHallReview.app */;
+			productReference = B6E7138827CFF8CB000A9955 /* Instagram.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B6E7139D27CFF8CC000A9955 /* UCSDDiningHallReviewTests */ = {
+		B6E7139D27CFF8CC000A9955 /* InstagramTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6E713B527CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "UCSDDiningHallReviewTests" */;
+			buildConfigurationList = B6E713B527CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "InstagramTests" */;
 			buildPhases = (
 				3FDAE6A747384F87D3AD3918 /* [CP] Check Pods Manifest.lock */,
 				B6E7139A27CFF8CC000A9955 /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				B6E713A027CFF8CC000A9955 /* PBXTargetDependency */,
 			);
-			name = UCSDDiningHallReviewTests;
+			name = InstagramTests;
 			productName = InstagramTests;
-			productReference = B6E7139E27CFF8CC000A9955 /* UCSDDiningHallReviewTests.xctest */;
+			productReference = B6E7139E27CFF8CC000A9955 /* InstagramTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B6E713A727CFF8CC000A9955 /* UCSDDiningHallReviewUITests */ = {
+		B6E713A727CFF8CC000A9955 /* InstagramUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6E713B827CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "UCSDDiningHallReviewUITests" */;
+			buildConfigurationList = B6E713B827CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "InstagramUITests" */;
 			buildPhases = (
 				D05A23AB11B3D3F778F9F984 /* [CP] Check Pods Manifest.lock */,
 				B6E713A427CFF8CC000A9955 /* Sources */,
@@ -235,9 +235,9 @@
 			dependencies = (
 				B6E713AA27CFF8CC000A9955 /* PBXTargetDependency */,
 			);
-			name = UCSDDiningHallReviewUITests;
+			name = InstagramUITests;
 			productName = InstagramUITests;
-			productReference = B6E713A827CFF8CC000A9955 /* UCSDDiningHallReviewUITests.xctest */;
+			productReference = B6E713A827CFF8CC000A9955 /* InstagramUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B6E7138327CFF8CB000A9955 /* Build configuration list for PBXProject "UCSDDiningHallReview" */;
+			buildConfigurationList = B6E7138327CFF8CB000A9955 /* Build configuration list for PBXProject "Instagram" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,9 +276,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6E7138727CFF8CB000A9955 /* UCSDDiningHallReview */,
-				B6E7139D27CFF8CC000A9955 /* UCSDDiningHallReviewTests */,
-				B6E713A727CFF8CC000A9955 /* UCSDDiningHallReviewUITests */,
+				B6E7138727CFF8CB000A9955 /* Instagram */,
+				B6E7139D27CFF8CC000A9955 /* InstagramTests */,
+				B6E713A727CFF8CC000A9955 /* InstagramUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -450,12 +450,12 @@
 /* Begin PBXTargetDependency section */
 		B6E713A027CFF8CC000A9955 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B6E7138727CFF8CB000A9955 /* UCSDDiningHallReview */;
+			target = B6E7138727CFF8CB000A9955 /* Instagram */;
 			targetProxy = B6E7139F27CFF8CC000A9955 /* PBXContainerItemProxy */;
 		};
 		B6E713AA27CFF8CC000A9955 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B6E7138727CFF8CB000A9955 /* UCSDDiningHallReview */;
+			target = B6E7138727CFF8CB000A9955 /* Instagram */;
 			targetProxy = B6E713A927CFF8CC000A9955 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -671,7 +671,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCSDDiningHallReview.app/UCSDDiningHallReview";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagram.app/Instagram";
 			};
 			name = Debug;
 		};
@@ -692,7 +692,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCSDDiningHallReview.app/UCSDDiningHallReview";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagram.app/Instagram";
 			};
 			name = Release;
 		};
@@ -737,7 +737,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6E7138327CFF8CB000A9955 /* Build configuration list for PBXProject "UCSDDiningHallReview" */ = {
+		B6E7138327CFF8CB000A9955 /* Build configuration list for PBXProject "Instagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6E713B027CFF8CC000A9955 /* Debug */,
@@ -746,7 +746,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6E713B227CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "UCSDDiningHallReview" */ = {
+		B6E713B227CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "Instagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6E713B327CFF8CC000A9955 /* Debug */,
@@ -755,7 +755,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6E713B527CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "UCSDDiningHallReviewTests" */ = {
+		B6E713B527CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "InstagramTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6E713B627CFF8CC000A9955 /* Debug */,
@@ -764,7 +764,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6E713B827CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "UCSDDiningHallReviewUITests" */ = {
+		B6E713B827CFF8CC000A9955 /* Build configuration list for PBXNativeTarget "InstagramUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6E713B927CFF8CC000A9955 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B6E7138727CFF8CB000A9955"
-               BuildableName = "Instagram.app"
-               BlueprintName = "UCSDDiningHallReview"
-               ReferencedContainer = "container:UCSDDiningHallReview.xcodeproj">
+               BuildableName = "UCSDDiningHallReview.app"
+               BlueprintName = "Instagram"
+               ReferencedContainer = "container:Instagram.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B6E7139D27CFF8CC000A9955"
-               BuildableName = "InstagramTests.xctest"
-               BlueprintName = "UCSDDiningHallReviewTests"
-               ReferencedContainer = "container:UCSDDiningHallReview.xcodeproj">
+               BuildableName = "UCSDDiningHallReviewTests.xctest"
+               BlueprintName = "InstagramTests"
+               ReferencedContainer = "container:Instagram.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B6E713A727CFF8CC000A9955"
-               BuildableName = "InstagramUITests.xctest"
-               BlueprintName = "UCSDDiningHallReviewUITests"
-               ReferencedContainer = "container:UCSDDiningHallReview.xcodeproj">
+               BuildableName = "UCSDDiningHallReviewUITests.xctest"
+               BlueprintName = "InstagramUITests"
+               ReferencedContainer = "container:Instagram.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B6E7138727CFF8CB000A9955"
-            BuildableName = "Instagram.app"
-            BlueprintName = "UCSDDiningHallReview"
-            ReferencedContainer = "container:UCSDDiningHallReview.xcodeproj">
+            BuildableName = "UCSDDiningHallReview.app"
+            BlueprintName = "Instagram"
+            ReferencedContainer = "container:Instagram.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B6E7138727CFF8CB000A9955"
-            BuildableName = "Instagram.app"
-            BlueprintName = "UCSDDiningHallReview"
-            ReferencedContainer = "container:UCSDDiningHallReview.xcodeproj">
+            BuildableName = "UCSDDiningHallReview.app"
+            BlueprintName = "Instagram"
+            ReferencedContainer = "container:Instagram.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
