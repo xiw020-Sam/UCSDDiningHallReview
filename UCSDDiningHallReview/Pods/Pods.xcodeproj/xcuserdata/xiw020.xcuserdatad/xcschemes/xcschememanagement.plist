@@ -46,21 +46,21 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>Pods-UCSDDiningHallReview-UCSDDiningHallReviewUITests.xcscheme</key>
+		<key>Pods-Instagram-InstagramUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
-		<key>Pods-UCSDDiningHallReview.xcscheme</key>
+		<key>Pods-Instagram.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>Pods-UCSDDiningHallReviewTests.xcscheme</key>
+		<key>Pods-InstagramTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
